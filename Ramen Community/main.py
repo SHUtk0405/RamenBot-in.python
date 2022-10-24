@@ -144,4 +144,4 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name=f"RamenCommunity/{len(bot.guilds)}のサーバーに参加中**rm!help**"), status=discord.Status.dnd)
 
 
-bot.run('MTAzMjk3NDMyMTQzOTc0MDAwNQ.G1x86D.aJFoY-_GEcK50JUHyvL4LwkzHTVVXWo4xoAzLk')
+bot.run('Token')
