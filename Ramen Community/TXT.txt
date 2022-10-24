@@ -1,0 +1,14 @@
+    if message.content == "醤油ラーメン":
+        await message.channel.send(file=discord.File("/home/server/デスクトップ/Ramen Community/images.jpeg"))
+        await message.channel.send("へい！お待ち！")
+        await bot.process_commands(message)
+    if message.content == "塩ラーメン":
+        await message.channel.send("へい！お待ち！")
+        await message.channel.send(file=discord.File("/home/server/デスクトップ/Ramen Community/IMG_7125.jpeg"))
+        await bot.process_commands(message)
+    if message.content == "何食べようかな":
+        await message.channel.send("そこはラーメンやろ")                
+        await bot.process_commands(message)
+    if message.content == "ラーメン":
+        await message.channel.send("美味しいよね♥")
+        await bot.process_commands(message)
